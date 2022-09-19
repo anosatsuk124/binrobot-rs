@@ -9,6 +9,7 @@ pub enum Bool {
 
 pub struct Number(pub f64);
 
+#[derive(Debug)]
 pub struct CommandTypeParseError;
 
 pub enum Direction {
