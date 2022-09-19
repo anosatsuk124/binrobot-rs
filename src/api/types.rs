@@ -7,7 +7,7 @@ pub enum Bool {
     False,
 }
 
-pub struct Number(f64);
+pub struct Number(pub f64);
 
 pub struct CommandTypeParseError;
 
